@@ -44,6 +44,12 @@ else
     echo "Remaining time: $(date -u -d @$time_diff +'%H:%M:%S')"
 fi
 ```
+### requirements
+This file uses jq package.
+Type the following command to install this package:
+```shell
+sudo apt-get install jq
+```
 ## crontab
 The first reason for choosing crontab was that it does its work again after the system is restarted or in all different situations, and this reason is completely accepted.
 Here we have to give the path of our delete.sh file to crontab so that our file is executed every time and the desired checks are done.
