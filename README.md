@@ -65,7 +65,7 @@ Here we have to give the path of our delete.sh file to crontab so that our file 
    The story of the first 5 stars of this order is as follows.
    ```
        * * * * * /path/to/command
-       - - - -
+       - - - - -
        | | | | |
        | | | | +---- Day of the week (0 - 7) (Sunday=0 or 7)
        | | | +------ Month (1 - 12)
