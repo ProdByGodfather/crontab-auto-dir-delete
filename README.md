@@ -50,6 +50,7 @@ Type the following command to install this package:
 ```shell
 sudo apt-get install jq
 ```
+Basically, this package in this project has the task of getting a key from the dictionary.
 ## crontab
 The first reason for choosing crontab was that it does its work again after the system is restarted or in all different situations, and this reason is completely accepted.
 Here we have to give the path of our delete.sh file to crontab so that our file is executed every time and the desired checks are done.
